@@ -1,19 +1,34 @@
 body {
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .urna {
     background-color: #dbd5c9;
     padding: 30px;
-    display: flex;
+    display: flex;    
 } 
 
 .tela {
     width: 450px;
     height: 320px;
-    background: linear-gradient(to right, #e8e8e8, #c1c1c1)
+    background: linear-gradient(to right, #e8e8e8, #c1c1c1)    
 }
 
 .teclado {
-    background-color: #403A3A;
+    margin-left: 30px;
+    background-color: #5a5757;
+}
+.telcado--linha{
+    display: flex;
+}
+
+teclado--botao {
+    width:50px;
+    height: 30px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 25px;
 }
