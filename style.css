@@ -14,21 +14,52 @@ body {
 .tela {
     width: 450px;
     height: 320px;
-    background: linear-gradient(to right, #e8e8e8, #c1c1c1)    
+    background: linear-gradient(to right, #e8e8e8, #c1c1c1);   
+    border: 2px solid #666; 
 }
 
 .teclado {
     margin-left: 30px;
     background-color: #5a5757;
 }
-.telcado--linha{
+
+.teclado--linha{
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-teclado--botao {
-    width:50px;
-    height: 30px;
+.teclado--botao {
+    width:70px;
+    height: 40px;
     background-color: #000;
     color: #FFF;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #666;
+}
+
+.botao--branco {
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+}
+
+.botao--corrige {
+    background-color: #f09046;
+    color: #000;
+    font-size: 15px;
+}
+
+.botao--confirma {
+    background-color: #228b22;
+    color: #fff;
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
+
 }
