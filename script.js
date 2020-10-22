@@ -17,6 +17,7 @@ function comecarEtapa() {
     let etapa = etapas[etapaAtual];
 
     let numeroHtml = '';
+    numero = '';
 
     for(let i = 0; i < etapa.numero; i++) {
         if(i === 0) {
@@ -83,10 +84,10 @@ function clicou(n) {
     }
 }
 function branco() {
-    alert(`clicou em branco`)
+    if( numero === '')
 }
 function corrige() {
-    alert(`clicou em corrige`)
+    comecarEtapa();
 }
 function confirma() {
     alert(`clicou em confirma`)
