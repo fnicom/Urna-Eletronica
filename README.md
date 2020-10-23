@@ -18,7 +18,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - HTML
 - JavaScript
 - CSS
-- TypeScript
 - VsCode
 - Git
 
