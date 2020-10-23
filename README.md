@@ -3,7 +3,7 @@
 <p align="center">Um simulador da urna eletrônica brasileira. O script recebe um arquivo JSON contendo as etapas da eleição, bem como os candidatos disponíveis para o voto.</p>
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  Urna Eletronica 🚀 Em construção...  🚧
 </h4>
 <h1></h1>
 https://fnicom.github.io/Urna-Eletronica/
